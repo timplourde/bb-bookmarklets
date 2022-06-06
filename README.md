@@ -1,2 +1,5 @@
 # bb-bookmarklets
-bookmarkets for blackboard
+
+Helpful bookmarkets for BlackBoard.  
+
+* [Gradebook Calculator](dist/gradebook.md)

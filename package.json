@@ -1,0 +1,24 @@
+{
+  "name": "bb-bookmarklets",
+  "version": "1.0.0",
+  "description": "Helpful bookmarkets for BlackBoard.  For entertainment purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-modules src/tests.mjs",
+    "build": "esbuild src/gradebook.js --bundle --minify --outfile=dist/gradebook.js && node build-md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timplourde/bb-bookmarklets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timplourde/bb-bookmarklets/issues"
+  },
+  "homepage": "https://github.com/timplourde/bb-bookmarklets#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.42"
+  },
+  "type": "module"
+}
